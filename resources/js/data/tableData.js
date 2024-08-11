@@ -1,0 +1,107 @@
+export const personalData = [
+    {
+        tier: "Seedling Scout",
+        minSeeds: 5,
+        minBuy: 75,
+        benefits: "Badge",
+        donors: 4900,
+        link: "#",
+    },
+    {
+        tier: "Sapling Savior",
+        minSeeds: 10,
+        minBuy: 150,
+        benefits: "Badge + Pin",
+        donors: 4300,
+        link: "#",
+    },
+    {
+        tier: "Tree Titan",
+        minSeeds: 20,
+        minBuy: 300,
+        benefits: "Badge + Pin",
+        donors: 15000,
+        link: "#",
+    },
+    {
+        tier: "Mangrove Master",
+        minSeeds: 50,
+        minBuy: 750,
+        benefits: "Badge + Pin + Bag",
+        donors: 5000,
+        link: "#",
+    },
+    {
+        tier: "Guardian of the Grove",
+        minSeeds: 100,
+        minBuy: 1500,
+        benefits: "Badge + Pin + Bag",
+        donors: 300,
+        link: "#",
+    },
+    {
+        tier: "Mangrove Maven",
+        minSeeds: 200,
+        minBuy: 3000,
+        benefits: "Badge + Pin + Bag",
+        donors: 10,
+        link: "#",
+    },
+];
+
+export const corporateData = [
+    {
+        benefits: "Price",
+        ecoTrailblazers: "15 Million IDR",
+        greenInnovators: "30 Million IDR",
+        ecoVanguard: "45 Million IDR",
+    },
+    {
+        benefits: "CO2 Sequestration",
+        ecoTrailblazers: "22,5 ton/year",
+        greenInnovators: "45 ton/year",
+        ecoVanguard: "67,5 ton/year",
+    },
+    {
+        benefits: "Number of Tress",
+        ecoTrailblazers: "1000 Trees",
+        greenInnovators: "2000 Trees",
+        ecoVanguard: "3000 Trees",
+    },
+    {
+        benefits: "Logo on JCI Banner",
+        ecoTrailblazers: true,
+        greenInnovators: true,
+        ecoVanguard: true,
+    },
+    {
+        benefits: "Logo on Communal Stainless Plate",
+        ecoTrailblazers: true,
+        greenInnovators: true,
+        ecoVanguard: true,
+    },
+    {
+        benefits: "Considered as Main Sponsor",
+        ecoTrailblazers: true,
+        greenInnovators: true,
+        ecoVanguard: true,
+    },
+    {
+        benefits: "Dedicated Stainless Plate",
+        ecoTrailblazers: false,
+        greenInnovators: true,
+        ecoVanguard: true,
+    },
+    {
+        benefits: "Report Update on Planted Trees",
+        ecoTrailblazers: false,
+        greenInnovators: true,
+        ecoVanguard: true,
+    },
+    {
+        benefits: "Logo on Event Clothings",
+        ecoTrailblazers: false,
+        greenInnovators: false,
+        ecoVanguard: true,
+    },
+];
