@@ -6,24 +6,32 @@ This project is created to complete assignment of Skill Test at ORDO Surabaya Fr
 - Inertia JS
 - SASS
 
+# Note
+1. No specific .env setup needed, it's using init .env
+2. The website only optimized for 1440px & 1920px dekstop/laptop width
+
 # How to Run This Project?
-## Step 1
+## Step 1 (The JS)
 ## Using Bun
 ```
-bun install
-bun dev
+$ bun install
+$ bun dev
 ```
 
 ## Using Yarn
 ```
-yarn install
-yarn dev
+$ yarn install
+$ yarn dev
 ```
 
-## Step 2
-## PHP Artisan
+## Step 2 (The PHP)
+## Using Composer & PHP Artisan
 ```
-php artisan serve
+$ composer install
+$ cp .env.example .env
+$ php artisan key:generate
+$ php artisan migrate
+$ php artisan serve
 ```
 
 ## Step 3
